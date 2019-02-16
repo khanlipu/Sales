@@ -1,0 +1,289 @@
+*{padding:0; margin:0;}
+body{background:#666666 fixed; width:100%; font-family:arial; font-size:14px; line-height:20px;}
+h1, h2, h3, h4, h5, h6{font-weight: normal; margin-bottom:15px;}
+
+	.starcture{
+		width:1000px;
+		margin:0 auto;
+	}
+	.fix{overflow:hidden;}
+	.floatleft{float:left;}
+	.floatright{float:right;}
+	
+	/*start coding for header*/
+	.header_aria{}
+	.bannar{
+		background:url(images/top-bg.gif) repeat;
+		height:134px;
+	}
+	.search{
+		margin-top:40px;
+		margin-left:40px;
+	}
+	.search p{
+		color:#fff;
+	}
+	.search input{
+		width:200px;
+		border:1px solid #868686;
+		margin-bottom:5px;
+		padding:3px;
+	}
+	.search img{
+		margin-bottom:-8px;
+	}
+	.log{}
+	
+	/*start coding for menu*/
+	.menu_aria{
+		width:1000px;
+		margin:0 auto;
+	}
+	.menu{
+		background:url(images/menu-bar.png) repeat; 
+		padding:10px;
+	}
+	.menu ul{}
+	.menu ul li{
+		display:inline-block; 
+	}
+	.menu ul li a{
+		text-decoration:none; 
+		color:#000; 
+		padding:10px;
+		text-transform:uppercase;
+		font-weight:;
+		font-size:13px;
+		margin:0 5px 0 20px;
+	}
+	.menu ul li a:hover{
+		border:1px solid #CCE6E3; 
+		border-radius:5px 5px 0 0; 
+		background:#D7D7D7; 
+		padding:5px 10px 10px 10px;
+		text-decoration:underline;
+		
+	}
+	
+	/*start coding for promo1*/
+	.promo1_promo2_aria{}
+	.promo1_promo2{background:#FFFFFF;}
+	.promo1_aria{}
+	.promo1{
+
+	}
+	.promo1_left{
+		width:690px;
+	}
+	.promo1_left img{
+		border-radius:; 
+		margin-left:15px;
+		margin-top:15px;
+	}
+	.promo1_right{
+		background:url(images/regester-box.png)repeat-x;
+		width:272px;
+		margin:15px 19px 20px 15px;
+		height:251px;
+		border-radius:12px;
+	}
+	.promo1_right h2{
+		color:#fff;
+		font-family:WinSoft Serif Pro;
+		margin-top:12px;
+		margin-left:20px;
+	}
+	.user_password{
+		width:190px;
+		margin-top:0px;
+		margin-left:35px;
+		font-weight:bold;
+		
+	}
+	.username{
+		float:right;
+	}
+	.username p{
+		float:left;
+		font-size:12px;
+		color:#fff;
+		font-weight:bold;
+	}
+	.username input{
+		float:right;
+		width:117px;
+		margin-left:4px;
+		border:0;
+		padding:2px;
+	}
+	
+	.password{
+		margin-top:10px;
+		float:right;
+	}
+	.password p{
+		float:left;
+		font-size:12px;
+		color:#fff;
+	}
+	.password input{
+		float:right;
+		width:118px;
+		margin-left:4px;
+		border:0;
+		padding:2px;
+	}
+	
+	.login{
+		float:right;
+		margin-top:10px;
+	}
+	.button{
+		width:60px;
+		text-transform:uppercase;
+		background:#FF8500;
+		border:0;
+		padding:2;
+		color:#fff;
+		font-weight:bold;
+	}
+	.button:hover{text-decoration:underline;}
+	.dot_line{
+		margin-left:20px;
+	}
+	.dot_line h2{
+		color:#000;
+		margin-left:0px;
+		margin-top:7px;
+		margin-bottom:10px;
+	}
+	.dot_line input{
+		border:0;
+		padding:2px 18px;
+		text-align:left;
+		
+	}
+	.dot_line h3{
+		margin-top:10px;
+		color:#fff;
+		border:0;
+		background:#FF8500;
+		padding:1px 4px;
+		font-weight:bold;
+		width:80px;
+		font-family:tahoma;
+		text-transform:uppercase;
+		font-size:13px;
+		text-align:center;
+	}
+	.dot_line a{color:#fff;}
+	.dot_line a:hover{text-decoration:underline; color:;}
+
+	
+	/*start coding for promo2*/
+	.promo2_aira{}
+	.promo2{}
+	.promo2_left{
+		width:670px;
+		margin-left:20px;
+		margin-bottom:10px;
+	}
+	.promo2_left h1{
+		color:#094738;
+		font-style:italic;
+		font-family:WinSoft Pro;
+		font-weight:bold;
+	}
+	.promo2_left p, our_services p{
+		font-size:11px;
+		font-family:Tahoma;
+		
+	}
+	.promo2_left h4{
+		color:#fff;
+		border:0;
+		background:#FF8500;
+		float:right;
+		padding:1px 6px;
+		margin-top:4px;
+		font-weight:bold;
+		margin-bottom:8px;
+	}
+	
+	.our_services img{
+		float:right;
+		margin-bottom:15px;
+	}
+	.our_services h1{
+		margin-top:22px;
+		margin-bottom:10px;
+	}
+	.promo2_right{
+		width:275px;
+		background:#E3E3E3;
+		float:right;
+		margin-right:18px;
+	}
+	.promo2_right h1{
+		color:#094738;
+		font-style:italic;
+		font-family:WinSoft Pro;
+		font-weight:bold;
+		margin-left:20px;
+		margin-top:20px; 
+	}
+	.promo2_right ul{
+		margin-left:20px;
+	}
+	.promo2_right ul li{
+		font-size:10px;
+		font-family:WinSoft Pro;
+		text-transform:uppercase;
+		margin-left:20px;
+	}
+	.promo2_right h4{
+		color:#fff;
+		border:0;
+		background:#FF8500;
+		float:right;
+		padding:1px 6px;
+		margin-top:4px;
+		font-weight:bold;
+		margin-bottom:0;
+	}
+	
+	/*start coding for footer*/
+	.footer_aria{}
+	.footer{
+		background:#E1E7E7;
+		margin-bottom:50px;
+		height:85px;
+	}
+	.footer_menu{
+		text-align:center;
+	}
+	.footer_menu ul{
+	}
+	.footer_menu ul li{
+		display:inline-block;
+		margin-top:15px;
+		
+	}
+	.footer_menu ul li a{
+		text-decoration:none;
+		padding:1px 10px;
+		border-right:2px solid #313131;
+		color:#000;
+		font-weight:bold;
+		font-size:12px;
+	}
+	.news{
+		border:0 0 0 0;
+		color:#E1E7E7;
+	}
+	.copyright{
+		font-family:tahoma;
+		font-size:10px;
+		text-align:center;
+	}
+	
